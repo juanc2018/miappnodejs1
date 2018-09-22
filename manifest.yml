@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: NodejsWebAppWithExpressjsJCGG
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 256MB
+  domain: eu-de.mybluemix.net
+  host: nodejswebappwithexpressjsjcgg
